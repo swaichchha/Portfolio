@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swaichchha Bhandari | Professional Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="./js/main.js"></script>
+  <!-- Loading Animation -->
+  <div class="loader">
+    <div class="loader-inner">
+      <div class="loader-circle"></div>
+    </div>
+  </div>
+
+  <!-- Floating Navigation Toggle -->
+  <div class="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Floating Social Links -->
+  <div class="social-floating">
+    <a href="https://www.linkedin.com/in/swaichchha-bhandari-341p?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEYS04%2BVBSSKdachSmQKJ%2Fw%3D%3D"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/swaichchhabhandari/"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- Main Navigation -->
+  <nav class="main-nav">
+    <div class="nav-logo">
+      <span>S</span>B
+    </div>
+    <ul>
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <!-- <li><a href="#projects" class="nav-link">Projects</a></li> -->
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-footer">
+      <p>&copy; 2025 Swaichahha Bhandari</p>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-container">
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content ">
+        <h1 class="hero-title">
+          <span class="title-word title-word-1">Hello,</span>
+          <span class="title-word title-word-2">I'm</span>
+          <span class="title-word title-word-3">Swaichchha</span>
+          <span class="title-word title-word-4">Bhandari</span>
+        </h1>
+        <p class="hero-subtitle">Actuarial Student</p>
+        <div class="hero-btns">
+          <!-- <a href="#projects" class="btn btn-primary">View My Work</a> -->
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <img src="./images/profile.jpg" alt="Swaichahha Bhandari" class="profile-img">
+          <div class="image-border"></div>
+          <div class="image-dots"></div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <span>Scroll Down</span>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-header">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image animate__animated" data-animation="fadeInLeft">
+          <img src="./images/about.jpg" alt="About Swaichahha" style="width: 80%; max-width: 600px; height: auto;">
+          <div class="about-badge">
+            
+            <span>4/13</span>
+            <p>IFOA exams completed</p>
+          </div>
+        </div>
+        <div class="about-text animate__animated" data-animation="fadeInRight">
+          <h3>I'm a Dedicated Actuarial Student</h3>
+          <p> Passionate about risk analysis, financial modeling, and statistical problem-solving
+
+            Currently pursuing actuarial qualifications with a strong foundation in mathematics and statistics. My goal is to leverage analytical skills to solve complex challenges in insurance and financial risk management.</p>
+         
+          <div class="about-btns">
+            <a href="#" class="btn btn-primary">Download CV</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skills-intro">
+          <h3>Technical Skills</h3>
+          <p>Here are the technologies I work with on a daily basis.</p>
+        </div>
+        <div class="skills-grid" id="skills-list">
+          <!-- Skills will be dynamically inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+    
+    <section id="certificates">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Certificates</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="certificates-container" id="certificates-list">
+        <!-- Certificates will be dynamically inserted here by JavaScript -->
+      </div>
+    </section>
+    <section id="certificates">
+      <div class="section-header">
+        <h2 class="section-title">My <span>Experience</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="certificates-container" id="experiences-list">
+        <!-- Certificates will be dynamically inserted here by JavaScript -->
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <!-- <section id="projects" class="projects-section">
+      <div class="section-header">
+        <h2 class="section-title">Recent <span>Projects</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+      <div class="projects-grid" id="projects-list">
+       
+      </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="section-header">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info animate__animated" data-animation="fadeInLeft">
+          <h3>Let's talk about everything!</h3>
+          <p>Feel free to reach out for collaborations or just a friendly hello.</p>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Pokhara, Nepal</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>bhandariswaichchha25@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+977 9816627856</p>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/swaichchha-bhandari-341p?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEYS04%2BVBSSKdachSmQKJ%2Fw%3D%3D"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/swaichchhabhandari/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form animate__animated" data-animation="fadeInRight">
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required>
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript Files -->
+  
+</body>
+</html>
