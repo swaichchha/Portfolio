@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "CM1 - Actuarial Mathematics",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2024-04-01",
-        image: "/images/certificates/ifoa-logo.png",
+        image: "./images/certificates/ifoa-logo.png",
         credentialUrl: "#",
         isExam: true,
         examCode: "CM1"
