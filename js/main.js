@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "CM2 - Financial Engineering and Loss Reserving",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2024-09-01",
-        image: "/home/parshuram/Documents/static/client/public/images/certificates/ifoa-logo.png",
+        image: "./images/certificates/ifoa-logo.png",
         credentialUrl: "#",
         isExam: true,
         examCode: "CM2"
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "CB2 - Business Economics",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2024-04-01",
-        image: "/home/parshuram/Documents/static/client/public/images/certificates/ifoa-logo.png",
+        image: "./images/certificates/ifoa-logo.png",
         credentialUrl: "#",
         isExam: true,
         examCode: "CB2"
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "CM1 - Actuarial Mathematics",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2024-04-01",
-        image: "/home/parshuram/Documents/static/client/public/images/certificates/ifoa-logo.png",
+        image: "/images/certificates/ifoa-logo.png",
         credentialUrl: "#",
         isExam: true,
         examCode: "CM1"
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "Student Research Case Study Challenge",
         issuingOrganization: "Society of Actuaries (SOA)",
         issueDate: "2024-01-01",
-        image: "/home/parshuram/Documents/static/client/public/images/certificates/soa-logo.jpg",
+        image: "./images/certificates/soa-logo.jpg",
         credentialUrl: "#",
         isExam: false,
         achievementType: "Research Competition"
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: "CS1 - Actuarial Statistics",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2023-09-01",
-        image: "/home/parshuram/Documents/static/client/public/images/certificates/ifoa-logo.png",
+        image: "./images/certificates/ifoa-logo.png",
         credentialUrl: "#",
         isExam: true,
         examCode: "CS1"
@@ -217,7 +217,7 @@ const Experiencesdata= [
     name: "CAS summer program",
         issuingOrganization: "Causalty Actuarial Society",
         Date: "June 2024 t0 August 2024",
-        image: "/home/parshuram/Documents/static/client/public/images/certificates/cas.png",
+        image: "./images/certificates/cas.png",
         credentialUrl: "www.parchment.com/u/s/zWl1",
         isExam: false,
         examCode: "CS1"
