@@ -324,21 +324,46 @@ const Experiencesdata= [
 
   // Contact form submission
   const contactForm = document.getElementById('contact-form');
+
   if (contactForm) {
-      contactForm.addEventListener('submit', (e) => {
+      contactForm.addEventListener('submit', async (e) => {
           e.preventDefault();
           const submitBtn = contactForm.querySelector('button[type="submit"]');
+          
           if (submitBtn) {
               submitBtn.disabled = true;
               submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-              
-              // Simulate form submission
-              setTimeout(() => {
-                  alert('Thank you for your message! I will get back to you soon.');
-                  contactForm.reset();
+  
+              // Prepare data as JSON
+              const formData = {
+                  name: contactForm.querySelector('#name').value,
+                  email: contactForm.querySelector('#email').value,
+                  subject: contactForm.querySelector('#subject').value,
+                  message: contactForm.querySelector('#message').value
+              };
+  
+              try {
+                  const response = await fetch('https://formspree.io/f/mjkypwdj', {
+                      method: 'POST',
+                      headers: {
+                          'Content-Type': 'application/json',
+                          'Accept': 'application/json'
+                      },
+                      body: JSON.stringify(formData)
+                  });
+  
+                  if (response.ok) {
+                      alert('Message sent successfully!');
+                      contactForm.reset();
+                  } else {
+                      throw new Error('Failed to send message');
+                  }
+              } catch (error) {
+                  alert('Error: ' + error.message);
+              } finally {
                   submitBtn.disabled = false;
-                  submitBtn.innerHTML = '<span>Send Message</span><i class="fas fa-paper-plane"></i>';
-              }, 1500);
+                  submitBtn.innerHTML = 'Send Message <i class="fas fa-paper-plane"></i>';
+              }
           }
       });
   }
