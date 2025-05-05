@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
       { name: "Statistics", proficiency: 90, icon: "fas fa-chart-bar" },
       { name: "Probability", proficiency: 85, icon: "fas fa-percentage" },
-      { name: "Predictive Modeling", proficiency: 80, icon: "fas fa-chart-line" },
+      { name: "Predictive Modeling", proficiency: 65, icon: "fas fa-chart-line" },
       { name: "Excel", proficiency: 90, icon: "fas fa-file-excel" },
       { name: "R Programming", proficiency: 75, icon: "fas fa-code" },
       { name: "Python", proficiency: 70, icon: "fab fa-python" },
@@ -193,15 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
         isExam: true,
         examCode: "CM1"
     },
-    {
-        name: "Student Research Case Study Challenge",
-        issuingOrganization: "Society of Actuaries (SOA)",
-        issueDate: "2024-01-01",
-        image: "./images/certificates/soa-logo.jpg",
-        credentialUrl: "#",
-        isExam: false,
-        achievementType: "Research Competition"
-    },
+    
     {
         name: "CS1 - Actuarial Statistics",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
@@ -210,6 +202,23 @@ document.addEventListener('DOMContentLoaded', () => {
         credentialUrl: "#",
         isExam: true,
         examCode: "CS1"
+    },{
+        name: "Student Research Case Study Challenge-2024",
+        issuingOrganization: "Society of Actuaries (SOA)",
+        issueDate: "2024-01-01",
+        image: "./images/certificates/soa-logo.jpg",
+        credentialUrl: "./images/certificates/soa-logo.jpg",
+        isExam: false,
+        achievementType: "Research Competition"
+    },
+    {
+        name: "Student Research Case Study Challenge-2025",
+        issuingOrganization: "Society of Actuaries (SOA)",
+        issueDate: "2025-01-01",
+        image: "./images/certificates/soa.png",
+        credentialUrl: "./images/certificates/soa.png",
+        isExam: false,
+        achievementType: "Research Competition"
     }
 ];
 const Experiencesdata= [
