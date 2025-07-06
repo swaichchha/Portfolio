@@ -235,7 +235,7 @@ const Experiencesdata= [
     name: "AIG Actuarial Analyst Job Simulation",
         issuingOrganization: "Forage",
         Date: "May 2025",
-        image: "./images/certificates/cas.png",
+        image: "./images/certificates/forage-schema-logo.png",
         credentialUrl: "www.parchment.com/u/s/zWl1",
         isExam: false,
         examCode: "Simulation"
