@@ -236,14 +236,14 @@ const Experiencesdata= [
         issuingOrganization: "Forage",
         Date: "May 2025",
         image: "./images/certificates/forage-schema-logo.png",
-        credentialUrl: "www.parchment.com/u/s/zWl1",
+        credentialUrl: "#",
         isExam: false,
         examCode: "Simulation"
   },
   {
     name: "CAS summer program",
         issuingOrganization: "Causalty Actuarial Society",
-        Date: "June 2024 t0 August 2024",
+        Date: "June 2024 to August 2024",
         image: "./images/certificates/cas.png",
         credentialUrl: "www.parchment.com/u/s/zWl1",
         isExam: false,
