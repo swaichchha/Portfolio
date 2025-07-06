@@ -176,6 +176,15 @@ document.addEventListener('DOMContentLoaded', () => {
         examCode: "CM2"
     },
     {
+        name: "CB1 - Business Finance",
+        issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
+        issueDate: "2024-04-23",
+        image: "./images/certificates/ifoa-logo.png",
+        credentialUrl: "#",
+        isExam: true,
+        examCode: "CB1"
+    },
+    {
         name: "CB2 - Business Economics",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2024-04-01",
