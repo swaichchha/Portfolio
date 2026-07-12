@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { name: "Statistics", proficiency: 90, icon: "fas fa-chart-bar" },
       { name: "Probability", proficiency: 85, icon: "fas fa-percentage" },
       { name: "Predictive Modeling", proficiency: 65, icon: "fas fa-chart-line" },
-      { name: "Excel", proficiency: 90, icon: "fas fa-file-excel" },
+      { name: "Excel", proficiency: 99, icon: "fas fa-file-excel" },
       { name: "R Programming", proficiency: 75, icon: "fas fa-code" },
       { name: "Python", proficiency: 70, icon: "fab fa-python" },
       { 
@@ -244,7 +244,7 @@ const Experiencesdata= [
     name: "Actuarial Analyst ",
         issuingOrganization: "LIC(Nepal)",
         Date: "December 2025-Present",
-        image: "./images/certificates/LICLOGO.png",
+        image: "./LICLOGO.png",
         credentialUrl: "#",
         isExam: false,
         examCode: "Actuarial Analyst"
