@@ -241,6 +241,24 @@ document.addEventListener('DOMContentLoaded', () => {
 ];
 const Experiencesdata= [
   {
+    name: "Actuarial Analyst ",
+        issuingOrganization: "LIC(Nepal)",
+        Date: "December 2025-Present",
+        image: "./images/certificates/LICLOGO.png",
+        credentialUrl: "#",
+        isExam: false,
+        examCode: "Actuarial Analyst"
+  },
+  {
+    name: "Actuarial Intern ",
+        issuingOrganization: "LIC(Nepal)",
+        Date: "June 2025-September2025",
+        image: "./images/certificates/LICLOGO.png",
+        credentialUrl: "#",
+        isExam: false,
+        examCode: "Intern"
+  },
+  {
     name: "AIG Actuarial Analyst Job Simulation",
         issuingOrganization: "Forage",
         Date: "May 2025",
