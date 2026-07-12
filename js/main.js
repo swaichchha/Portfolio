@@ -176,6 +176,15 @@ document.addEventListener('DOMContentLoaded', () => {
         examCode: "CM2"
     },
     {
+        name: "CP3-Communications Practice",
+        issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
+        issueDate: "2026-04-15",
+        image: "./images/certificates/ifoa-logo.png",
+        credentialUrl: "#",
+        isExam: true,
+        examCode: "CP3"
+    },
+    {
         name: "CB1 - Business Finance",
         issuingOrganization: "Institute and Faculty of Actuaries (IFoA)",
         issueDate: "2024-04-23",
