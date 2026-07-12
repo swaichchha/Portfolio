@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { name: "Python", proficiency: 70, icon: "fab fa-python" },
       { 
         name: "Data Visualization", 
-        proficiency: 75, 
+        proficiency: 80, 
         icon: "fas fa-chart-pie",}
   ];
 
@@ -244,7 +244,7 @@ const Experiencesdata= [
     name: "Actuarial Analyst ",
         issuingOrganization: "LIC(Nepal)",
         Date: "December 2025-Present",
-        image: "./images/certificates/LICLOGO.png",
+        image: ".LICLOGO.png",
         credentialUrl: "#",
         isExam: false,
         examCode: "Actuarial Analyst"
