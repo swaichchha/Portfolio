@@ -244,7 +244,7 @@ const Experiencesdata= [
     name: "Actuarial Analyst ",
         issuingOrganization: "LIC(Nepal)",
         Date: "December 2025-Present",
-        image: ".LICLOGO.png",
+        image: "./LICLOGO.png",
         credentialUrl: "#",
         isExam: false,
         examCode: "Actuarial Analyst"
